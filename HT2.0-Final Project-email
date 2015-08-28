@@ -1,0 +1,139 @@
+<html>
+<head>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script> 
+<style> 
+body{
+	font-size: 40px;
+	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhQUExQVFBQUFBQVFRQXFBQUFRQVFxQWFxQVFBUYHCggGBolHBQUITEhJSkrLi4uFx8zODMsNygtLiwBCgoKDg0OGhAQFywcHBwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLP/AABEIAMIBAwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QALBAAAgEDAgQGAwEAAwAAAAAAAAECAxEhMUESUWHwE3GBkaGxwdHh8QQiQv/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgME/8QAGxEBAQEBAQEBAQAAAAAAAAAAAAERAhIhMWH/2gAMAwEAAhEDEQA/APj6GQqQ6R53ogpBUQpFIxC04m4iuJfgM4BpxzuJlEs4g4R0Yk4iuJ0cAOAtWIcJuE6HAHAWrEOE3CXUA+GWrHNwh4S/AbgLRiKibhOlUwcAacc/AFQOjwx1SL0fLkcAcB0+GHwi9Ly5eEPCdLpDRol6XlyqAygdKpDeGHo+XJwAcDtdMi6ZTpXlyOIOE6JUwOBrWMc4GVlEm0IsIYYwgyKxJIrAK1FIIpFCRKxOddIeMBnTNEqZtbkc7pC+GdcImnTD0vLmjTHVEqoFIFapy55URfCO7gNKBn014cSpAVM7vDGjS6F7Hhw+AB0LHouBNU7lOzeHJ4WBvB3OunTv3q9kW8HS68kF7M4cCoDeFju52xXPb5FksY2wu/YPR8OHwh1RK8H9K04Deh5c8aXfehlDp1PQhSx8kfD0fNfJn014cqoh8DU61Sf0n0KSpYWVz6+vuXszhwVKRF0zvlC6v36exN0sX33GdM3l5jpCSpfg9CVISdLU6TtzvDzqkDnlE9CtSOSojpzXPqOcwzMbc8BFYEol6aKmLU0dEIEIo6IM5V25U8PQPDkdLAOI566YMIDuIIlWjNrUjnsGlqbc1LU0y67IWMc9BpaYK0Yqxy3HXNLwZGUQzXuT4sh+nMPJdO+Yjp98uZRIXfqu/wBEcUoUnbbZ/lfgarBvLx+OrHpSt+Pr8AqK7XXL78zG3W8mOZw/it7FZUvd/Hp8jqdvLW/M6KOfN6K2l1/EN6onMcsP+Otrvm+o0qSW3d1zK1b5zjn56W5gjTbu3m2nLTmGq8p1LdEvtcreQrs+mdbd6FqiwvR9H1ts8ak6kc2aeXnK05a81f1GCwZWXO2LLnnGN9AzjfX/ADe7ssiXby7LKVtrq6v8jf8AGqf9b6tq139AoSUee1vRO5zzhrjXpk65Npa4us66PPpgjOTzm/Wyxk1KzY5ai+9fT+ipb277RStpbqQcjpGKhWRw1kdtY46p24cO3M0YLRjs5JxLQZBFYlRHVSZeDOSmdMDl07cuiMr4MLGxelHc5346T6ylgpSlfAJRAsMy1+DOJFYZdu/mTtdlFY6If0pm4kVgf7MV0i3BzIVo2715HRCS3/RGc+mnzqZjVkJGrdq2ujKxW9iCSLwePx+hqn9VjJLPfpbyFi1a739Pdhk1ZddSlKlexhrHPO7d9F/m3oVWFr+L7D1qfFp56XfTRk5OOVi/LVvXPkO6MynjU56X56XyrL1QalWywlvfdN3bv5Ebpbcnr3jA8ndX8lHTRPOPkMWkVR2Su9Vi1rq+MewznxPXVK992um2qEg7a3vd88Wv+vgTi03dpdbZX6ZrGdH/AMvyxbXW3LmFzT6c3zXly6gjo8aaNW3bSs+WoHG2HZWdlfbF89BAufnbS/3YnF51xz208jeM7LXF7PZ64XewXV+Ommzvza6Dg0tR4IzeuM31LV3h69dtO0ccpbW759TXMZ6qNVnHUOmrI5pnfl5+kWjGbAdHNJFYE4jxERaDOilI5osqjHUdOa6tDppyVjjpLqWxY5WO3NWlUvptvt5C+Jcnx+iBJhhtUlMNOfocrm/kupfQ2CV0Rq2LQnzOSnJLzLRZzsblVdTbqJ4l+uO0Rm8jxSax3YsOn2Gpz+NAcW3fuNJfX7BoYVf4WhV3s2uVs+Zxblqc9bBYuenaqienvfPeSM53aXzZYv5eZqdm7tWflr1M4WWGk3q7eZiTG7RqYxfD7389CXjNWfJ49LrF/T4GjBc7+mHb7Q9Sd+qxtbHr6izppS6PKvnzefr2EUPl3221efYEqiy+eubXS0XnqK1j7fN8iw6dSWeeefW1vcnUldvnjOnTHsDlr7iTn3yGRm0q15Jde+hpz29lf3IymhXU+Tpjnqkpve9v2RnLBpS9jnnUW5qRm0k5HPOQ8pohUkdpHHqlbCJcxtzKh4iIZMhFIl4nMWgZrcXgiiZKLDe5h0ldEWCQm40WZxvSSX4CzSBPby7/AAIUjI6oPBy0ikJGOo1yapoLCf2PNXREob8UpTd/o6pTv8epxwVmdayZ6a5C2RpPGAN8kC1lj2An4m+/voUaxf8A1nI36/sv4ywFi1em9mwVql8KyRGUr/o0OvfMMOmVO99FoGVRIR1diFWd/PfoMmjcVdYhOZoLU3EkzcgtTZoJ3/w05EnUdzUYPNHO0Um2TcjUZqNTBFlqrIXOscaRhAzCyAUAKIHiWiyESsQrUWTGiycGW4TFdIMWOiYbg1D1ETWvoMpBTyBK56FVLBCS2GpMrBK6VM04kWFzwZxvTN6FKciCZem0VUrogzVn2icZCTnruYk+t2kdRloT6EYoMTVjMdDk98dBKsiSqX1FkwnJvSqju2PKS0IRZSnDmVULGYLMm3ZhcjWDTVNOpzyRTJnAZ8Zv1OSIywWmyEom4xSz0IstURI3HOp3MNYIs4mFACINErElEeINRWJeBzopCZitynka5m0LfJlpZRFjca4sWDRZLI1L8gvgylZiFXqLFCuYzYEqlY6Ivc56mUGjIrFP1aMwAm8jORloUrCyNxgvckZw3FlK1rZ/RvI17CleuBeO/uTps3fswxaZwC7GnJEXIQrBo0pkgXLFpZsnJDzJVUbjnSVGI2GqhLG450xhAiEwgGTEGiMhLjJgVIhuLc1waWTMmTchkGNatxAbE4jcRnDogvuFsSQoznka5GWo0WVilUTHuSQ6AwZzKKWCLQykGHTykPEkVhIKYEQvOdycmZSuWLRUgX6jTlghJ5GQWqqQJSEjIMplg0zZNzM5E3E1ILWnVJzmZo1jTFJOQEwtYQBZBswGAcGsFGCiTJDXFMiJmwoVIdIEKGuBGYNA2OmKxolVBSBIa4GDRbYHiCwLklojVCUJFJsy1rJitg6AeSwaqmGMhIhaAmbDIix0WLQmsEpHQQmjUFLczY1hWhZMCTACRLQloBPAkpATNM62wEa4LiGYAAFlRIZC3CpGWjGSNcyInSMwXM2CALYtzJijoe5O4bgdM2Kma5mSM2BsUDLFp0yinggmFMrFKpNmTyJc1ww6vFjtnOpDqZmxqU5mxeIVyLFqrkTQqkCUxwadvALC8RpMRoiyM2K2I0jAaTAxZC4qGFEMYJhDBAYCZMNxLmuS1TiBxC3BcFprmuLc1xWqKRuInc1wWq8RnIlc1yw6e4WydzXIaa4biXNcVp+INydzXBarxBUiVzXLDqvEbiJXNcsWqORmxLguS0/EG5O5rktUbFbFuC5DRbA2BmEa1wBAKEBjEGCAxFjGMSEwDEhMAxITGMCYxjEmMAxATAMKExjEmMYwFjGMSEBjEhMAxJjAMSYxjCmMYxBjGMSf/9k= ");
+}
+cen { text-align: center;}
+lef { text-align: left;}
+rig { text-align: right;}
+</style>
+<center> <h1 style="color:orange">Harriet Tubman 2.0</h1> </center>
+<center> <h2 style="color:yellow">The First Time Wasn't A Game</h2> </center>
+<script src="processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">  <!--city scroller-->
+			/* @pjs preload="harriet.png"; */
+			PImage Bharriet;
+			var scroller;
+			var building;
+			
+			void setup(){
+			  scroller = new Scroller();
+			  size(900, 450); <!--(WIDTH, HEIGHT)-->
+			  background(32, 34, 75);
+			  Bharriet = loadImage("harriet.png");
+			}
+
+			void draw(){  
+			  background(32, 34, 75);
+			  scroller.moveBuildingList();
+			  scroller.drawBuildingList();
+			  fill (68,46,24);
+			  rect(0,420,900,50);
+			  image(Bharriet, 0, 300, 120/2, 270/2);
+			 }
+			
+			class Building {
+				var height;
+				var width;
+				var xPos;
+				var yPos;
+				var xSpeed;
+				
+				Building(col, v, x, w) {
+					r = col[0];
+					g = col[1];
+					b = col[2];
+					xSpeed = v;
+					height = random(100, 300);
+					xPos = x;
+					yPos = 450 - height;
+					width = w;
+				}
+				
+				void moveBuilding() {
+					xPos = xPos + xSpeed;
+				}
+				
+				void drawBuilding() {
+					noStroke();
+					fill(r, g, b);
+					rect(xPos, yPos, width, height);
+					
+				}
+			}
+			
+			class Scroller {
+				var furthestX = 0;
+				var buildingList = new Array();
+				var xSpeed = -1;
+				Scroller() {
+					buildingList = [];
+					while (furthestX < 900){
+						var newWidth = random(50, 200);
+						buildingList.push(new Building([46, 92, 45], xSpeed, furthestX, newWidth));
+						furthestX = furthestX + newWidth;
+					}
+					
+				}
+				void drawBuildingList() {
+					for (var i = 0; i < buildingList.length; i++) {
+						buildingList[i].drawBuilding();  
+					}
+				}
+
+				void moveBuildingList() {
+					for (var i = 0; i < buildingList.length; i++) {
+						buildingList[i].moveBuilding();
+					}
+					furthestX = furthestX + xSpeed;
+					if (furthestX < 900) {
+						var newWidth = random(50, 200);
+						buildingList.push(new Building([46, 92, 45], xSpeed, furthestX, newWidth));
+						furthestX = furthestX + newWidth;
+					}
+				}
+				
+			}
+				
+			
+	</script>
+</head>
+
+<body>  <!--the info on the game-->
+<center> <button id="getstarted">About the game!</button></center>
+
+<script>
+var G = true
+var INFO = function() {
+	if (G === true){
+	$("body").append ("<p> This is for feminist </p>")
+	G = false
+	}
+	}
+$("#getstarted").click(INFO);
+</script>	
+
+ <!--show the game-->
+<center> <canvas id="mycanvas"></canvas> </center>
+<!--<center> <button id="jump"> Jump</button></center>
+<script>
+var checkKey = function(e){
+	if(e.keyCode === 38){
+	JUMP():
+	}
+var JUMP = function(){
+	if (J === true){
+	<!-- change y-pos to 350-->
+	<!--set J to false-->
+	<!--when J is false change y-pos to 300-->
+	<!--set J to true-->
+	}
+}
+</body>
+
+
+</html>
+
